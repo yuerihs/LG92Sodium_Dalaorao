@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Graded Exercise</title>
+</head>
+<body>
+    <img id="firstimage" src="media/images/ayato1.jpg">
+    <button onclick="replaceimage()">Replace Image</button>
+    <button onclick="revertimage()">Revert Image</button>
+    <button onclick="firstpage()">Go Back</button>
+    <script>
+           alert("Please scroll to see the buttons")
+        function replaceimage() {
+            firstimage.src="media/images/ayato2.jpg";}     
+        function revertimage() {
+            firstimage.src ="media/images/ayato1.jpg";}
+        function firstpage(){
+            window.open("index.html");}
+    </script>
+</body>
+</html>
